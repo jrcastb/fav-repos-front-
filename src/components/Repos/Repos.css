@@ -1,0 +1,51 @@
+.gh-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: solid 2px #41403e;
+    margin-bottom: 5px;
+  }
+  .gh-container .fav-star-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .gh-container .fav-star-icon:hover {
+    color: #fec600;
+  }
+  .gh-container .fav-star-icon:hover:active {
+    color: #ba9202;
+  }
+  .gh-container .gh-repo span {
+    font-weight: 700;
+    color: #ccabeb;
+  }
+  .gh-container .gh-repo h2 {
+    align-items: center;
+    font-weight: 400;
+  }
+  .gh-container .gh-repo h4 {
+    color: #000;
+  }
+  .gh-container .gh-repo p {
+    font-size: 0.8rem;
+    color: #000;
+  }
+  button {
+    padding: 5px;
+    background-color: #f86472;
+    font-weight: 400;
+    border-color: #f86472;
+  }
+  button:hover {
+    background-color: #eb1e33;
+  }
+  
